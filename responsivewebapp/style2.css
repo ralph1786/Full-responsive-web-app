@@ -1,0 +1,78 @@
+/* Media Queries */
+
+@media (max-width: 992px) {
+    social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+
+/* Adds responsiveness on devices like Ipad. */
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        top: 45%;
+    }
+    .carousel-caption h1 {
+        font-size: 350%;
+    }
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption .btn {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+    .display-4 {
+        font-size: 200%;
+    }
+    .social a {
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+    .container-fluid a {
+        margin-bottom: 20px;
+    }
+}
+
+/* Adds responsiveness on devices like iphone 7 and 7+. */
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        top: 40%;
+    }
+    .carousel-caption h1 {
+        font-size: 250%;
+    }
+    .carousel-caption h3 {
+        font-size: 110%;
+    }
+    .carousel-caption .btn {
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+    .display-4 {
+        font-size: 160%;
+    }
+    .social a {
+        font-size: 2.0rem;
+        padding: .7rem;
+    }
+    .img-fluid {
+        width: 23.5rem;
+        height: 15rem;
+    }
+}
+
+/* Fixes issued regarding centering two images on large tablets. */
+
+@media(min-width: 750px)and (max-width: 768px) {
+    .img-fluid {
+        margin-left: 10rem;
+    }
+}
