@@ -1,0 +1,22 @@
+{
+  "name": "full-responsive-web-app",
+  "version": "1.0.0",
+  "description": "responsive website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralph1786/Full-responsive-web-app.git"
+  },
+  "author": "Ralph Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ralph1786/Full-responsive-web-app/issues"
+  },
+  "homepage": "https://github.com/ralph1786/Full-responsive-web-app#readme",
+  "dependencies": {
+    "jump.js": "^1.0.2"
+  }
+}
