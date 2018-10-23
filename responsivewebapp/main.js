@@ -14,21 +14,21 @@ button1.addEventListener("click", function() {
 
 button2.addEventListener("click", function() {
   jump(".target2", {
-    duration: 1000,
+    duration: 1500,
     offset: -300
   });
 });
 
 button3.addEventListener("click", function() {
   jump(".target3", {
-    duration: 1000,
+    duration: 1500,
     offset: -110
   });
 });
 
 button4.addEventListener("click", function() {
   jump(".target4", {
-    duration: 1000,
+    duration: 1500,
     offset: -100
   });
 });
